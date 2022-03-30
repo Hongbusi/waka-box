@@ -34,7 +34,7 @@ async function updateGist(stats) {
       name.padEnd(11),
       time.padStart(14) + " ",
       unicodeProgressBar(percent + 15),
-      String(percent.toFixed(1)).padStart(5) + "%"
+      // String(percent.toFixed(1)).padStart(5) + "%"
     ];
 
     lines.push(line.join(" "));
